@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+/* 覆盖用户代理样式表设置 */
+body,
+body * {
+    font-style: normal !important;
+}
+
+aside {
+    width: 320px;
+    height: 100%;
+    position: fixed;
+    background: #f7f9f9;
+}
+
+nav {
+    height: 50px;
+    background: #f7f9f9;
+}
+
+#content {
+    height: 100%;
+    padding-left: 320px;
+    background: #f7f9f9;
+}
+
+
+
+/* 自定义滚动条（可拖动） */
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #6e6f70;
+    border: 1px solid transparent;
+    background-clip: padding-box;
+}
